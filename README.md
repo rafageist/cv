@@ -46,7 +46,7 @@ I entered the world of computing in 1997. I have experience in multiple programm
 
 **Apretaste! – Agora Cuba Inc** – USA
 2013 – 2025
-[https://apretaste.net](https://apretaste.net)
+[https://apretaste.net](https://apretaste.net/about)
 
 ---
 
