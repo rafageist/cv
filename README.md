@@ -1,12 +1,13 @@
 # Rafael Rodríguez, B.Sc.
 
-**Software Engineer & Tech Entrepreneur**
+**Senior Software Engineer**
 Cuban · 39 years old
-📍 Centrum, Paramaribo, Suriname
-📞 +597 840 1275
-✉️ [rafageist@hotmail.com](mailto:rafageist@hotmail.com)
-🔗 GitHub: [https://github.com/rafageist](https://github.com/rafageist)
-🔗 LinkedIn: [https://linkedin.com/in/rafageist](https://linkedin.com/in/rafageist)
+
+- 📍 Centrum, Paramaribo, Suriname
+- 📞 +597 840 1275
+- ✉️ [rafageist@hotmail.com](mailto:rafageist@hotmail.com)
+- 🔗 GitHub: [https://github.com/rafageist](https://github.com/rafageist)
+- 🔗 LinkedIn: [https://linkedin.com/in/rafageist](https://linkedin.com/in/rafageist)
 
 ---
 
