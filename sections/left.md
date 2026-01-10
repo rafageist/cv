@@ -1,9 +1,16 @@
 ![](assets/profile.png){.avatar}
 
-# Rafael Rodr&iacute;guez Ram&iacute;rez
-**Senior Software Engineer** | B.Sc. Software Engineering
+# Rafael Rodríguez Ramírez
+Software Engineer | B.Sc.
 
-Focused on scalable systems, digital transformation, and product delivery. Started programming in 1997 across desktop, web, mobile, and cloud platforms.
+---
+
+Senior software engineer focused on scalable systems
+and enterprise digital transformation.
+Engineering experience spanning desktop, web, mobile,
+and cloud platforms from early technical formation..
+
+---
 
 <div class="contact-list">
 <div class="contact-item"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-7 7-11a7 7 0 1 0-14 0c0 4 7 11 7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg><span>Paramaribo, Suriname</span></div>

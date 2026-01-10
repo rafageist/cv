@@ -153,8 +153,9 @@ a:hover {
 }
 
 .avatar {
-  width: 88px;
-  height: 88px;
+  width: 80%;
+  height: auto;
+  aspect-ratio: 1 / 1;
   border-radius: 50%;
   border: 2px solid var(--accent);
   object-fit: cover;
@@ -272,12 +273,12 @@ hr {
 }
 
 .col-middle {
-  flex: 1 1 44%;
+  flex: 1 1 47%;
   min-width: 0;
 }
 
 .col-right {
-  flex: 0 0 30%;
+  flex: 0 0 27%;
   min-width: 0;
 }
 
