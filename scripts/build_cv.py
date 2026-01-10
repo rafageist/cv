@@ -89,6 +89,8 @@ def configure_gtk() -> None:
     if gtk_root:
         gtk_path = Path(gtk_root)
     else:
+        # Developer-specific fallback for local GTK installation.
+        # Other users should set the GTK_PATH environment variable instead.
         gtk_path = Path(r"D:\apps\gtk4")
         if not gtk_path.exists():
             return
