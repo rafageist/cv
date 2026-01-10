@@ -1,3 +1,35 @@
+@font-face {
+  font-family: "Tinos";
+  src: url("../assets/fonts/Tinos-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tinos";
+  src: url("../assets/fonts/Tinos-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tinos";
+  src: url("../assets/fonts/Tinos-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tinos";
+  src: url("../assets/fonts/Tinos-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   --bg-1: #f4e7d3;
   --bg-2: #efe0c9;
@@ -25,7 +57,8 @@ body {
 }
 
 html {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Tinos";
+  font-synthesis: none;
   font-size: 9pt;
   line-height: 1.38;
   color: var(--ink);

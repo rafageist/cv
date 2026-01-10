@@ -120,25 +120,24 @@ def render_pdf_with_weasyprint(html_path: Path, pdf_path: Path) -> None:
 
 
 def render_pdf_with_playwright(html_path: Path, pdf_path: Path) -> None:
-    try:
-        from playwright.sync_api import sync_playwright
-    except ImportError as exc:
-        print(
-            "Playwright is not installed. Run: pip install playwright",
-            file=sys.stderr,
-        )
-        raise SystemExit(1) from exc
+    from playwright.sync_api import sync_playwright
 
     html_uri = html_path.resolve().as_uri()
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
         page.goto(html_uri, wait_until="load")
+        try:
+            page.evaluate("document.fonts.ready")
+        except Exception:
+            pass
         page.pdf(
             path=str(pdf_path),
-            format="A4",
+            prefer_css_page_size=True,
             print_background=True,
             display_header_footer=False,
+            margin={"top": "0", "right": "0", "bottom": "0", "left": "0"},
+            scale=1,
         )
         browser.close()
 
@@ -151,6 +150,7 @@ def run_chromium_print(
         str(browser),
         headless_arg,
         "--disable-gpu",
+        "--force-device-scale-factor=1",
         "--allow-file-access-from-files",
         "--print-to-pdf-no-header",
         f"--print-to-pdf={pdf_path}",
@@ -203,6 +203,7 @@ def render_pdf_with_chromium(html_path: Path, pdf_path: Path) -> None:
             str(browser),
             "--headless",
             "--disable-gpu",
+            "--force-device-scale-factor=1",
             "--allow-file-access-from-files",
             "--no-first-run",
             "--no-default-browser-check",
@@ -220,15 +221,41 @@ def render_pdf_with_chromium(html_path: Path, pdf_path: Path) -> None:
         except subprocess.CalledProcessError:
             pass
 
+    print("Chromium PDF generation failed.", file=sys.stderr)
+    raise SystemExit(1)
+
+
+def try_render_with_playwright(html_path: Path, pdf_path: Path) -> bool:
     try:
-        render_pdf_with_playwright(html_path, temp_pdf)
-        finalize_pdf(temp_pdf, pdf_path)
-        return
-    except SystemExit:
-        raise
+        render_pdf_with_playwright(html_path, pdf_path)
+        return True
+    except ImportError:
+        return False
     except Exception as exc:
         print(f"Playwright PDF failed: {exc}", file=sys.stderr)
-        raise SystemExit(1) from exc
+        return False
+
+
+def try_render_with_chromium(html_path: Path, pdf_path: Path) -> bool:
+    try:
+        render_pdf_with_chromium(html_path, pdf_path)
+        return True
+    except SystemExit:
+        return False
+    except Exception as exc:
+        print(f"Chromium PDF failed: {exc}", file=sys.stderr)
+        return False
+
+
+def try_render_with_weasyprint(html_path: Path, pdf_path: Path) -> bool:
+    if not can_use_weasyprint():
+        return False
+    try:
+        render_pdf_with_weasyprint(html_path, pdf_path)
+        return True
+    except subprocess.CalledProcessError as exc:
+        print(f"WeasyPrint PDF failed: {exc}", file=sys.stderr)
+        return False
 
 
 def main() -> None:
@@ -285,19 +312,23 @@ def main() -> None:
     pdf_name = f"Rafael_Rodriguez_Senior_Software_Engineer_{version}.pdf"
     pdf_path = BUILD_DIR / pdf_name
 
-    if sys.platform.startswith("win"):
-        if can_use_weasyprint():
-            try:
-                render_pdf_with_weasyprint(html_path, pdf_path)
-                print(f"Generated {pdf_path}")
-                return
-            except subprocess.CalledProcessError:
-                pass
-        render_pdf_with_chromium(html_path, pdf_path)
-    else:
-        render_pdf_with_weasyprint(html_path, pdf_path)
+    if try_render_with_playwright(html_path, pdf_path):
+        print(f"Generated {pdf_path}")
+        return
 
-    print(f"Generated {pdf_path}")
+    if try_render_with_chromium(html_path, pdf_path):
+        print(f"Generated {pdf_path}")
+        return
+
+    if try_render_with_weasyprint(html_path, pdf_path):
+        print(f"Generated {pdf_path}")
+        return
+
+    print(
+        "No PDF renderer available. Install Playwright, Edge/Chrome, or WeasyPrint.",
+        file=sys.stderr,
+    )
+    raise SystemExit(1)
 
 
 if __name__ == "__main__":
