@@ -26,7 +26,7 @@ def read_manifest_version() -> str:
     manifest_path = ROOT / "manifest.yaml"
     if not manifest_path.is_file():
         print(
-            "Missing manifest.yaml. Add a version field, e.g. version: \"2025.10.04\"",
+            "Missing manifest.yaml. Add a version field, e.g. version: \"2026.01\"",
             file=sys.stderr,
         )
         raise SystemExit(1)
