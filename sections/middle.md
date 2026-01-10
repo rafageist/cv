@@ -8,7 +8,7 @@
 ::: {.xp}
 [2024-present]{.year-badge}[Software Engineering Mentor]{.role}  
 [Independent / Consulting]{.meta}  
-[Professional mentoring focused on software engineering]{.desc}
+[Professional mentoring focused on software engineering practice, systems thinking, and applied development.]{.desc}
 :::
 
 ::: {.xp}

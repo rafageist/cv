@@ -6,9 +6,9 @@ Software Engineer | B.Sc.
 ---
 
 Senior software engineer focused on scalable systems
-and enterprise digital transformation.
-Engineering experience spanning desktop, web, mobile,
-and cloud platforms from early technical formation..
+and enterprise digital transformation. Engineering
+experience spanning desktop, web, mobile, and cloud
+platforms built from early technical formation.
 
 ---
 
