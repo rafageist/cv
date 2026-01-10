@@ -54,10 +54,6 @@ html {
 }
 
 body {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 10pt;
-  line-height: 1.38;
-  color: var(--ink);
   background: transparent;
 }
 
