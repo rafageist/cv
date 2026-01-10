@@ -38,7 +38,7 @@ The PDF is created in `build/` with this name:
 
 The version comes from `manifest.yaml`:
 ```yaml
-version: "2025.10.04"
+version: "2026.01"
 ```
 
 ## Updating content
