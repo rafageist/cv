@@ -29,6 +29,36 @@ jobs:
           python -m pip install playwright
           python -m playwright install --with-deps chromium
 
+      - name: Read manifest version
+        id: meta
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import os
+          
+          version = ""
+          for raw_line in Path("manifest.yaml").read_text(encoding="utf-8").splitlines():
+              line = raw_line.strip()
+              if not line or line.startswith("#"):
+                  continue
+              if line.lower().startswith("version:"):
+                  value = line.split(":", 1)[1].strip()
+                  if (value.startswith('"') and value.endswith('"')) or (
+                      value.startswith("'") and value.endswith("'")
+                  ):
+                      value = value[1:-1]
+                  version = value
+                  break
+          
+          if not version:
+              raise SystemExit("manifest.yaml is missing a version field.")
+          
+          tag = f"v{version}"
+          title = f"Rafael Rodriguez Senior Software Engineer CV {version}"
+          out = Path(os.environ["GITHUB_OUTPUT"])
+          out.write_text(f"version={version}\ntag={tag}\ntitle={title}\n", encoding="utf-8")
+          PY
+
       - name: Build PDF
         run: python scripts/build_cv.py
 
@@ -39,7 +69,9 @@ jobs:
           path: build/Rafael_Rodriguez_Senior_Software_Engineer_*.pdf
 
       - name: Release PDF
-        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: ${{ steps.meta.outputs.title }}
           files: build/Rafael_Rodriguez_Senior_Software_Engineer_*.pdf
+          fail_on_unmatched_files: true

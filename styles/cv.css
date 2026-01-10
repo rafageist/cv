@@ -65,19 +65,19 @@ html {
   background:
     linear-gradient(
       135deg,
-      rgba(166, 129, 90, 0.28) 0%,
-      rgba(166, 129, 90, 0.28) 18%,
+      rgba(166, 129, 90, 0.18) 0%,
+      rgba(166, 129, 90, 0.18) 18%,
       transparent 18%,
       transparent 52%,
-      rgba(139, 94, 60, 0.22) 52%,
-      rgba(139, 94, 60, 0.22) 70%,
+      rgba(139, 94, 60, 0.14) 52%,
+      rgba(139, 94, 60, 0.14) 70%,
       transparent 70%,
       transparent 100%
     ),
     linear-gradient(
       220deg,
-      rgba(200, 160, 120, 0.2) 0%,
-      rgba(200, 160, 120, 0.2) 16%,
+      rgba(200, 160, 120, 0.14) 0%,
+      rgba(200, 160, 120, 0.14) 16%,
       transparent 16%,
       transparent 100%
     ),
