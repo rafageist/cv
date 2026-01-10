@@ -53,7 +53,7 @@ Programming training; built community inventory, database, management systems, a
 
 ## Events
 ::: {.events}
-[2009]{.year-badge} ACM Mexico & Central America Programming Contest (university level)
+[2009]{.year-badge} ACM/ICPC Mexico & Central America Programming Contest (university level)
 
 [2004]{.year-badge} IOI international contest preparation
 
