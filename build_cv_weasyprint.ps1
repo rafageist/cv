@@ -4,7 +4,11 @@
 $originalPath = $env:PATH
 
 # Configure environment variables for GTK4
-$env:GTK_PATH = "D:\apps\gtk4"
+if (-not $env:GTK_PATH) {
+    # Default GTK_PATH for this environment; override by setting $env:GTK_PATH before running this script
+    $env:GTK_PATH = "D:\apps\gtk4"
+    Write-Host "GTK_PATH not set. Using default: $env:GTK_PATH" -ForegroundColor Yellow
+}
 
 # Rebuild PATH without Meld and with GTK at the beginning
 $systemPath = $env:PATH -split ';' | Where-Object { $_ -notmatch 'Meld' }
