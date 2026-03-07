@@ -1,14 +1,15 @@
 ![](assets/profile.png){.avatar}
 
 # Rafael Rodríguez Ramírez
-Software Engineer | B.Sc.
+Senior Software Engineer | B.Sc.
 
 ---
 
-Senior software engineer focused on scalable systems
-and enterprise digital transformation. Engineering
-experience spanning desktop, web, mobile, and cloud
-platforms built from early technical formation.
+Senior Software Engineer with 15+ years of experience building scalable backend systems and enterprise software platforms across logistics, ERP and distributed services.
+
+Focused on system architecture, backend design and automation of complex business processes, with experience developing production systems across web, mobile and cloud environments.
+
+Strong foundations in mathematics, logic and software modeling, regularly contributing to system architecture decisions and long-term evolution of software systems.
 
 ---
 

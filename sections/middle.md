@@ -1,41 +1,52 @@
 ## Work Experience
+
 ::: {.xp}
-[2025-present]{.year-badge}[Senior Software Engineer & Digital Transformation Professional]{.role}  
+[2025-present]{.year-badge}[Senior Software Engineer]{.role}
 [VVM Excellence N.V. (Suriname)]{.meta} [www.vvm.sr](https://www.vvm.sr){.link}  
-[Odoo partner focused on enterprise development, modernization, and systems integration.]{.desc}
-:::
 
-::: {.xp}
-[2024-present]{.year-badge}[Software Engineering Mentor]{.role}  
-[Independent / Consulting]{.meta}  
-[Professional mentoring focused on software engineering practice, systems thinking, and applied development.]{.desc}
-:::
-
-::: {.xp}
-[2024-2025]{.year-badge}[Founder & Principal Lead]{.role}  
-[Abacus Computing Institute (Suriname)]{.meta} [abacusci.com](https://abacusci.com){.link}  
-[Software engineering training initiative with curricula and hands-on applied development.]{.desc}
+Design and development of ERP solutions and system
+integrations based on Odoo, focusing on backend
+architecture and workflow automation.
 :::
 
 ::: {.xp}
 [2020-2025]{.year-badge}[Software Engineer]{.role}  
 [Magaya Corporation (USA)]{.meta} [magaya.com](https://magaya.com){.link}  
-[Built logistics software, integrations, and scalable services.]{.desc}
+
+Designed backend services and integrations for enterprise
+logistics and freight management systems used in
+international trade.
 :::
 
 ::: {.xp}
 [2013-2025]{.year-badge}[Co-Founder, Software Engineer]{.role}  
 [Apretaste! / Agora Cuba Inc. (USA)]{.meta} [apretaste.net/about](https://apretaste.net/about){.link}  
-[Anti-censorship social platform focused on free expression and alternative information access.]{.desc}
+
+Designed and developed a distributed social platform,
+working on backend services, platform architecture
+and system scalability.
+:::
+
+::: {.xp}
+[2014]{.year-badge}[Software Engineer]{.role}  
+[Brascuba Cigarrillos S.A. (Brazil–Cuba Joint Venture)]{.meta}  
+
+Development and customization of ERP systems based on
+Openbravo for enterprise operations.
 :::
 
 ::: {.xp}
 [2010-2013]{.year-badge}[Software Engineer]{.role}  
-[Ministry of Finance and Prices (Cuba)]{.meta}  
-[Financial and administrative systems for management and fines processing.]{.desc}
+[Public Sector – Financial Administration Systems (Cuba)]{.meta}  
+
+Development of financial and administrative software
+systems for public sector management and reporting.
 :::
 
+---
+
 ## Education
+
 ::: {.xp}
 [2005-2010]{.year-badge}**B.Sc. Software Engineering**  
 Technological University of Havana
@@ -48,10 +59,14 @@ V.I. Lenin Pre-University Institute
 
 ::: {.xp}
 [1997-2000]{.year-badge}**Early Technical Formation**  
-Programming training; built community inventory, database, management systems, and educational games.
+Programming training; built early inventory, database
+and management systems.
 :::
 
+---
+
 ## Events
+
 ::: {.events}
 [2009]{.year-badge} ACM/ICPC Mexico & Central America Programming Contest (university level)
 
@@ -60,5 +75,8 @@ Programming training; built community inventory, database, management systems, a
 [2003]{.year-badge} National High-Performance Computing Contest, La Habana
 :::
 
+---
+
 ## Languages
+
 Spanish (native), English (professional), Dutch (basic)
