@@ -1,26 +1,41 @@
+## Core Technologies
+
+Python • JavaScript • TypeScript • C# • FastAPI • Node.js • .NET • Odoo • PostgreSQL • Docker • Linux
+
+## Key Expertise
+
+- Backend Systems Architecture  
+- Distributed Systems  
+- Enterprise Software Platforms  
+- ERP Systems & Integrations  
+- API Design & System Integration
+
 ## Skills
-### Programming / Coding / Markup
-BASIC, Pascal, C/C++, JavaScript, PHP, Java, SQL, PL/pgSQL, TypeScript, C#, Python, HTML, CSS
 
-### Frameworks / Libs
-.NET, Xamarin, MAUI, FastAPI, Celery, Odoo, Node.js, React, Vue, Flutter, Symfony, Laravel, jQuery, Drupal
+### Software Engineering
+System architecture, system design, microservices architecture,
+distributed systems, API design, software modeling (UML, BPM, SysML),
+RUP, SCRUM
 
-### Engineering
-RUP, SCRUM, UML, BPM, MDA, SysML
+### Computer Science Foundations
+Mathematical logic, algorithms, heuristics, dynamic programming
 
-### Artificial Intelligence
-Mathematical logic, concept maps, descriptive programming, evolutionary computing, neural networks, machine learning
+### Backend & APIs
+FastAPI, Node.js, .NET, Odoo, Openbravo, REST APIs
 
-### Operations Research
-Decision algorithms, decision-making methods, non-polynomial problem solving, heuristics, dynamic and deterministic programming
+### Databases
+PostgreSQL, Redis, MongoDB, MySQL, MSSQL, SQLite
 
-### DevOps & IoT
-Azure, AWS, Linux administration, Node-RED
+### Cloud / DevOps
+Docker, Linux, AWS, Azure
+
+### Languages
+Python, JavaScript, TypeScript, C#, Java, SQL
+
+### Frontend
+React, Vue
 
 ### Testing
 Cypress, Appium, Xamarin UI Test, TestComplete
-
-### Databases
-PostgreSQL, MySQL, MSSQL, SQLite, MongoDB, Redis
 
 [Last updated: {{LAST_UPDATED}}]{.updated-fixed}
