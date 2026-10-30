@@ -1,41 +1,35 @@
-## Core Technologies
+## Engineering Expertise
 
-Python • JavaScript • TypeScript • C# • FastAPI • Node.js • .NET • Odoo • PostgreSQL • Docker • Linux
+- Enterprise & ERP Systems Architecture
+- Backend & Domain Modeling
+- Business Workflows & System Integration
+- Distributed Systems & APIs
+- Data Integrity, Testing & CI/CD
 
-## Key Expertise
+## Technology Stack
 
-- Backend Systems Architecture  
-- Distributed Systems  
-- Enterprise Software Platforms  
-- ERP Systems & Integrations  
-- API Design & System Integration
+### Enterprise Platforms
+Odoo • Drupal
 
-## Skills
+### Backend & Languages
+PHP • Python • C#/.NET • Java • Node.js
 
-### Software Engineering
-System architecture, system design, microservices architecture,
-distributed systems, API design, software modeling (UML, BPM, SysML),
-RUP, SCRUM
+### Web Technologies
+JavaScript • TypeScript • React • Vue
 
-### Computer Science Foundations
-Mathematical logic, algorithms, heuristics, dynamic programming
+### Mobile Technologies
+.NET MAUI • Flutter • Dart
 
-### Backend & APIs
-FastAPI, Node.js, .NET, Odoo, Openbravo, REST APIs
+### Databases & Data
+PostgreSQL • PL/pgSQL • MySQL • SQLite
 
-### Databases
-PostgreSQL, Redis, MongoDB, MySQL, MSSQL, SQLite
+### Infrastructure & Automation
+Debian/Linux • Docker • OpenTofu • Ansible
 
-### Cloud / DevOps
-Docker, Linux, AWS, Azure
-
-### Languages
-Python, JavaScript, TypeScript, C#, Java, SQL
-
-### Frontend
-React, Vue
+### Architecture & Modeling
+UML • BPMN • ArchiMate • SysML
 
 ### Testing
-Cypress, Appium, Xamarin UI Test, TestComplete
+Playwright
 
 [Last updated: {{LAST_UPDATED}}]{.updated-fixed}

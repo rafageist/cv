@@ -5,11 +5,11 @@ Senior Software Engineer | B.Sc.
 
 ---
 
-Senior Software Engineer with 15+ years of experience building scalable backend systems and enterprise software platforms across logistics, ERP and distributed services.
+Senior Software Engineer with 15+ years of professional experience designing and building enterprise software, ERP solutions, and backend systems, including Odoo-based applications and warehouse management software.
 
-Focused on system architecture, backend design and automation of complex business processes, with experience developing production systems across web, mobile and cloud environments.
+Experienced in translating complex business requirements into reliable architectures, domain models, workflows, and system integrations.
 
-Strong foundations in mathematics, logic and software modeling, regularly contributing to system architecture decisions and long-term evolution of software systems.
+Strong foundations in algorithms, mathematics, software modeling, and relational databases, with a programming background dating back to 1997.
 
 ---
 

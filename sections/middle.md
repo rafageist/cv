@@ -4,18 +4,20 @@
 [2025-present]{.year-badge}[Senior Software Engineer]{.role}
 [VVM Excellence N.V. (Suriname)]{.meta} [www.vvm.sr](https://www.vvm.sr){.link}  
 
-Design and development of ERP solutions and system
-integrations based on Odoo, focusing on backend
-architecture and workflow automation.
+Design and development of Odoo-based enterprise applications, 
+including business domain modeling, backend architecture, 
+workflows, and system integrations. Focus on transactional 
+integrity, access control, automated testing, and reliable 
+business processes.
 :::
 
 ::: {.xp}
 [2020-2025]{.year-badge}[Software Engineer]{.role}  
 [Magaya Corporation (USA)]{.meta} [magaya.com](https://magaya.com){.link}  
 
-Designed backend services and integrations for enterprise
-logistics and freight management systems used in
-international trade.
+Development of backend services and integrations for warehouse 
+management and logistics software, supporting operational 
+workflows in international freight and trade.
 :::
 
 ::: {.xp}
