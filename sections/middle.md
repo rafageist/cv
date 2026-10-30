@@ -2,7 +2,7 @@
 
 ::: {.xp}
 [2025-present]{.year-badge}[Senior Software Engineer]{.role}
-[VVM Excellence N.V. (Suriname)]{.meta} [www.vvm.sr](https://www.vvm.sr){.link}  
+[VVM Excellence N.V. (Suriname)]{.meta} [vvm.co](https://vvm.co){.link}  
 
 Design and development of Odoo-based enterprise applications, 
 including business domain modeling, backend architecture, 
